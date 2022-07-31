@@ -2,4 +2,31 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  background-color: rgb(120, 163, 126);
+}
+header > h1,nav{
+  text-align:center;
+}
+header > nav{
+  padding:10px;
+}
+header nav{
+  color: rgb(179, 100, 211);
+}
+figure {
+  text-align:center; /*This method only works 
+  if the image is inside a block-level container such 
+  as a <div>*/
+}
+#featured-property > p{
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  text-align:center
+}
+#details > div{
+  float: left;
+  background-color: rgb(255, 0, 0);
+  text-align:center;
+  width: 25%;
 }
