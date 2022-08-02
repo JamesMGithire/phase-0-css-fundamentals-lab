@@ -7,7 +7,7 @@ body {
 header > h1,nav{
   text-align:center;
 }
-header > nav{
+header > nav > a{
   padding:10px;
 }
 header nav{
